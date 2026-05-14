@@ -1,0 +1,14 @@
+LocatorName,LocatorTYpe,LoactorValue
+text_checkout_title,css,.title
+button_cancel,css,#cancel
+button_continue,css,#continue
+input_first_name,css,#first-name
+input_last_name,css,#last-name
+input_postal_code,css,#postal-code
+button_finish,css,#finish
+text_summary_info,css,.summary_info
+text_thank_you,css,.complete-header
+text_checkout_final_message,css,div.complete-text
+button_back_home,css,#back-to-products
+text_summary_label,css,.summary_info_label
+text_summary_value,css,.summary_value_label

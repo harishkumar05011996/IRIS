@@ -1,0 +1,9 @@
+LocatorName,LocatorTYpe,LoactorValue
+text_your_cart,css,.title
+text_cart_quantity,css,.cart_quantity
+text_item_name,css,#item_4_title_link div
+text_item_description,css,.inventory_item_desc
+text_cart_item_price,css,.inventory_item_price
+button_continue_shopping,css,#continue-shopping
+button_checkout,css,#checkout
+button_remove,css,#remove-sauce-labs-backpack

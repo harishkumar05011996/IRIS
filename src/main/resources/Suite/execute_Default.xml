@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="full_windows10_chrome76" parallel="none" thread-count="3" verbose="8">
+	<parameters>
+        <parameter name="os" value="Windows" />
+        <parameter name="browser" value="Chrome" />
+        <parameter name="priority" value="major" />
+        <parameter name="browserVersion" value="80" />
+        <parameter name="nodeURL" value="" />
+        <parameter name="platformId" value="15" />
+        <parameter name="executionCycleId" value="123654" />
+        <parameter name="productId" value="55" />
+        <parameter name="osVersion" value="10" />
+        <parameter name="deviceName" value="" />
+	</parameters>
+	<listeners>
+		<listener class-name="com.IRIS.listener.TestListener" />
+</listeners>
+<test name="1">
+        <classes>
+             <class name="com.IRIS.testcases.BeforeAfterSuite"/>
+            <class name="com.IRIS.testcases.HomePage">
+                <methods>
+                <include name="saucelab_add_to_cart_checkout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+	</suite>
+	

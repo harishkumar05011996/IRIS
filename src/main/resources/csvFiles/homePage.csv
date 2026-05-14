@@ -1,0 +1,10 @@
+LocatorName,LocatorTYpe,LoactorValue
+input_username,css,#user-name
+input_password,css,#password
+button_login,css,#login-button
+button_add_to_cart_backpack,css,#add-to-cart-sauce-labs-backpack
+text_item_name,xpath,"//button[@id='add-to-cart-sauce-labs-backpack']/ancestor::div[@class='inventory_item_description']//a"
+text_item_desc,xpath,"//button[@id='add-to-cart-sauce-labs-backpack']/ancestor::div[@class='inventory_item_description']//div[@data-test='inventory-item-desc']"
+text_item_price,xpath,"//button[@id='add-to-cart-sauce-labs-backpack']/ancestor::div[@class='pricebar']/div"
+link_shopping_cart,css,#shopping_cart_container a
+text_shopping_cart_itemvalue,css,#shopping_cart_container span
