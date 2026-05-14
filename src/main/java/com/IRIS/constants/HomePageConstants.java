@@ -27,5 +27,11 @@ public class HomePageConstants {
     //TODO
     public static final String STANDARD_USERNAME = "standard_user";
     public static final String STANDARD_PASSWORD = "secret_sauce";
+    
+    public static final List<String> USERIDS = Arrays.asList("1", "10", "2", "3", "4", "5", "6", "7", "8", "9");
+    public static final List<String> FULLNAMES = Arrays.asList("Anita Sharma", "Deepak Yadav", "Harish Kumar", "Kavita Mishra", "Mohit Gupta", "Neha Jain", "Priya Singh", "Rahul Verma", "Rohit Chawla", "Saurabh Mehta");
+    public static final List<String> USERNAMES = Arrays.asList("anita02", "deepak08", "harish01", "kavita09", "mohit05", "neha06", "priya04", "rahul03", "rohit10", "saurabh07");
+    public static final List<String> EMAILS = Arrays.asList("anita02@iris.com", "deepak08@iris.com", "harish01@iris.com", "kavita09@iris.com", "mohit05@iris.com", "neha06@iris.com", "priya04@iris.com", "rahul03@iris.com", "rohit10@iris.com", "saurabh07@iris.com");
+    public static final List<String> PHONENUMBERS = Arrays.asList("9876543210", "9876543211", "9876543212", "9876543213", "9876543214", "9876543215", "9876543216", "9876543217", "9876543218", "9876543219");
 
 }

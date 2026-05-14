@@ -56,6 +56,4 @@ public class constants {
     public static String EDGE_DRIVER_LOCATION_LOCAL = String.format("%s%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"driver",File.separatorChar, "msedgedriver.exe");
     public static String OR_FOLDER_LOCATION = String.format("%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"csvFiles",File.separatorChar);
     public static String TEST_DATA_EXCEL_PATH = String.format("%s%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"TestData",File.separatorChar,"TestDataExcel.xlsx");
-
-
 }

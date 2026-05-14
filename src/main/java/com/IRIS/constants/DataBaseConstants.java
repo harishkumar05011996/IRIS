@@ -19,8 +19,11 @@ public class DataBaseConstants {
     
     
     //TODO column name Section
-    public static final String USER_ID = "user_id";
-    public static final String FUNCTION_ID = "function_id";
+    public static final String COLUMN_PHONE = "phone";
+    public static final String COLUMN_EMAIL = "email";
+    public static final String COLUMN_FULL_NAME = "full_name";
+    public static final String COLUMN_USERNAME = "username";
+    public static final String COLUMN_USER_ID = "user_id";
     
     //TODO Test data for database Testing
     public static final String USERID_SUNIL_KUMAR = "Sunil Kumar";
@@ -31,9 +34,10 @@ public class DataBaseConstants {
     public static final String DATABASE_TESTING_DESCRIPTION = "This is for verify the database Testing";
     
     //TODO Assertions constants
-    public static final String FIRST_USER_ID_IS_MATCHED = "first User ID is matched";
-    public static final String SECOND_USER_ID_IS_MATCHED = "Second User ID is not matched";
-    public static final String FIRST_FUNCTION_ID_IS_MATCHED = "First Function ID is matched";
-    public static final String SECOND_FUNCTION_ID_IS_MATCHED = "Second Function ID is matched";
+    public static final String USER_IDS_DOES_NOT_MATCH = "User Ids does not match";
+    public static final String USERNAMES_DOES_NOT_MATCH = "Usernames does not match";
+    public static final String FULL_NAME_DOES_NOT_MATCH = "Full name does not match";
+    public static final String EMAILS_DOES_NOT_MATCH = "Emails does not match";
+    public static final String PHONE_NUMBERS_DOES_NOT_MATCH = "Phone numbers does not match";
 
 }
