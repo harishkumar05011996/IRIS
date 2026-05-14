@@ -47,7 +47,7 @@ public class constants {
     public static final int ZERO = 0;
     
   //TODO Storage Locations
-    public static String EXTENTED_REPORT_LOCATION = String.format("%s%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"extentedReports",File.separatorChar,"IRISExtentedReport " + LocalDate.now());
+    public static String EXTENTED_REPORT_LOCATION = String.format("%s%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"extentedReports",File.separatorChar,"IRISExtentedReport");
     public static String SCREENSHOT_LOCATION = String.format("%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"ScreenShots",File.separatorChar);
     public static String CHROME_DRIVER_LOCATION = String.format("%s%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"driver",File.separatorChar, "chromedriver");
     public static String CHROME_DRIVER_LOCATION_LOCAL = String.format("%s%s%s%s%s%s%s%s%s%s%s", System.getProperty("user.dir"), File.separatorChar,"src",File.separatorChar,"main",File.separatorChar,"resources",File.separatorChar,"driver",File.separatorChar, "chromedriver.exe");
