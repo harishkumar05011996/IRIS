@@ -1,6 +1,10 @@
 pipeline {
   agent any
 
+triggers {
+    cron('TZ=Asia/Kolkata\n30 10 * * 1-5')
+  }
+
   stages {
     stage('Checkout') {
       steps {
