@@ -6,7 +6,7 @@ pipeline {
       steps {
         // Recommended checkout method:
         checkout scmGit(
-          branches: [[name: 'main']],
+          branches: [[name: 'master']],
           userRemoteConfigs: [[url: 'https://github.com/harishkumar05011996/IRIS.git']]
         )
       }
