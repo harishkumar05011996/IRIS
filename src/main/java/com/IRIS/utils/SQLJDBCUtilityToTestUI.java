@@ -23,7 +23,7 @@ public class SQLJDBCUtilityToTestUI {
 
         // ✅ MySQL URL format: jdbc:mysql://host:port/database?properties [2](https://marmo.dev/lombok-java)
         // Replace host/user/pass as per your environment
-        String url  = "jdbc:mysql://localhost:3306/iris?useSSL=false&serverTimezone=UTC";
+        String url  = "jdbc:mysql://localhost:3306/iris?allowPublicKeyRetrieval=true&useSSL=false";
         String user = "root";
         String pass = "root";
 
